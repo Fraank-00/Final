@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost:3306
--- Tiempo de generación: 14-09-2023 a las 03:45:28
+-- Tiempo de generación: 22-09-2023 a las 18:19:50
 -- Versión del servidor: 8.0.30
 -- Versión de PHP: 8.1.10
 
@@ -54,7 +54,7 @@ ALTER TABLE `posteos`
 -- AUTO_INCREMENT de la tabla `posteos`
 --
 ALTER TABLE `posteos`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

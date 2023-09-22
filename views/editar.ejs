@@ -15,7 +15,7 @@
                     Deja tu post  : <%=post.id%>
                 </div>
                 <div class="card-body">
-                    <form action="/publicar" method="POST">
+                    <form action="/editar/<%=post.id%>"  method="POST">
                         <div class="mb-3">
                             <label for="titulo" class="form-label">Titulo</label>
                             <input type="text" class="form-control" id="titulo" name="titulo" value="<%=post.titulo%>">
@@ -26,7 +26,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="link" class="form-label">Link Imagen</label>
-                            <input type="text" class="form-control" id="link" name="link" value="<%=post.link%>">
+                            <input type="text" class="form-control" id="link" name="link" value="<%=post.link%>" >
                         </div>
                         
                         <div class="mb-3">

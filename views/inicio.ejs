@@ -32,7 +32,11 @@
                 <th scope="row"><%=  item.id%></th>
                 <th><%=  item.titulo%></th>
                 <th><%=  item.descripcion%></th>
-                <th><%=  item.enlace%>  </th>
+                <th><%=  item.enlace%> 
+              <a href="<%= item.link %>" target="_blank">
+                <img src="<%= item.link %>" alt="Imagen de la publicación">
+            </a>
+                </th>
                 <th><%=  item.fecha%> </th>
                 <td>
                     <a type="button" class="btn btn-warning btn-sm" href="/editar/<%= item.id%>" >Editar</a>
